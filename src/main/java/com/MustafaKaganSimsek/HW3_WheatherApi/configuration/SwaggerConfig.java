@@ -1,4 +1,4 @@
-package com.MustafaKaganSimsek.HW3_WheatherApi.Configuration;
+package com.MustafaKaganSimsek.HW3_WheatherApi.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

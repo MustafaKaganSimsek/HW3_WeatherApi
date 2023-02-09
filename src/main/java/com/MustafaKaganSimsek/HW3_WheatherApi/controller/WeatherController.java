@@ -27,7 +27,7 @@ public class WeatherController {
     }
     //weather data for the next 7 days
     @GetMapping("/week/{location}")
-    public ResponseEntity<WeatherDto> getWeeklyWeatherDatas(@PathVariable
+    public ResponseEntity<WeatherDto> getNextWeekWeatherDatas(@PathVariable
                                                                         @Pattern(regexp = "^[a-zA-Z][a-zA-Z\\s-]+[a-zA-Z]$",
                                                                                 message = "Invalid location found. Please check your location parameter")
                                                                         String location) {
@@ -35,7 +35,7 @@ public class WeatherController {
     }
     //weather data for the next 30 days
     @GetMapping("/month/{location}")
-    public ResponseEntity<WeatherDto> getMonthlyWeatherDatas(@PathVariable
+    public ResponseEntity<WeatherDto> getNextMonthWeatherDatas(@PathVariable
                                                                          @Pattern(regexp = "^[a-zA-Z][a-zA-Z\\s-]+[a-zA-Z]$",
                                                                                  message = "Invalid location found. Please check your location parameter")
                                                                          String location) {

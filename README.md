@@ -38,7 +38,7 @@ what is expected
 
 1. Clone the repo
 ```
-https://github.com/MustafaKaganSimsek/HW3_WeatherApi.git
+git clone https://github.com/MustafaKaganSimsek/HW3_WeatherApi.git
 ```
 ### Usage
 

@@ -28,6 +28,12 @@ what is expected
 * Making validations on your models or parameters. 
 * Handling exceptions.
 
+## URL
+
+* http://localhost:8080/api/weather/today/{location}
+* http://localhost:8080/api/weather/week/{location}
+* http://localhost:8080/api/weather/month/{location}
+
 ### Installation
 
 1. Clone the repo
@@ -45,6 +51,5 @@ cd .../HW3_WeatherApi
 mvn spring-boot:run
 ```
 3. You can use swagger
-```
-http://localhost:8080/swagger-ui/
-```
+
+* http://localhost:8080/swagger-ui/
